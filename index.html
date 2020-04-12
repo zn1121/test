@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="check">
+        <div class="advance" onclick="advance_check()" id="advance">
+            <p id="advance_p">高级版</p>
+            <span id="advance_span">适合独立摄影师</span>
+        </div>
+        <div class="custom" onclick="custom_check()" id="custom">
+            <p id="custom_p">定制版</p>
+            <span id="custom_span">适合小型工作室</span>
+        </div>
+    </div>
+    <div class="title">
+        <span id="advance_t">高级版</span><span class="fit">（ 适合</span><span class="orange">独立摄影师</span><span class="fit">
+            ）</span>
+    </div>
+    <div class="advance_title" id="advance_title">
+        <div class="advance_first">
+            <div class="advance_first_item" onclick="model()">
+                <div class="circle">A</div>
+                <p>标题1</p>
+            </div>
+            <div class="advance_first_item" id="unHighLight">
+                <div class="circle">A</div>
+                <p>标题2</p>
+            </div>
+            <div class="advance_first_item">
+                <div class="circle">A</div>
+                <p>标题3</p>
+            </div>
+            <div class="advance_first_item">
+                <div class="circle">A</div>
+                <p>标题4</p>
+            </div>
+            <div class="advance_first_item" id="unHighLight">
+                <div class="circle">A</div>
+                <p>标题5</p>
+            </div>
+
+        </div>
+        <div class="advance_second">
+            <div class="advance_first_item" id="unHighLight">
+                <div class="circle">A</div>
+                <p>标题6</p>
+            </div>
+            <div class="advance_first_item" id="unHighLight">
+                <div class="circle">A</div>
+                <p>标题7</p>
+            </div>
+            <div class="advance_first_item">
+                <div class="circle">A</div>
+                <p>标题8</p>
+            </div>
+            <div class="advance_first_item" id="unHighLight">
+                <div class="circle">A</div>
+                <p>标题9</p>
+            </div>
+            <div class="advance_first_item">
+                <div class="circle">A</div>
+                <p>标题10</p>
+            </div>
+        </div>
+    </div>
+    <div class="custom_title" id="custom_title">
+        <div class="advance_first">
+            <div class="advance_first_item">
+                <div class="circle">A</div>
+                <p>标题1</p>
+            </div>
+            <div class="advance_first_item">
+                <div class="circle">A</div>
+                <p>标题2</p>
+            </div>
+            <div class="advance_first_item">
+                <div class="circle">A</div>
+                <p>标题3</p>
+            </div>
+            <div class="advance_first_item">
+                <div class="circle">A</div>
+                <p>标题4</p>
+            </div>
+            <div class="advance_first_item">
+                <div class="circle">A</div>
+                <p>标题5</p>
+            </div>
+
+        </div>
+        <div class="advance_second">
+            <div class="advance_first_item">
+                <div class="circle">A</div>
+                <p>标题6</p>
+            </div>
+            <div class="advance_first_item">
+                <div class="circle">A</div>
+                <p>标题7</p>
+            </div>
+            <div class="advance_first_item">
+                <div class="circle">A</div>
+                <p>标题8</p>
+            </div>
+            <div class="advance_first_item">
+                <div class="circle">A</div>
+                <p>标题9</p>
+            </div>
+            <div class="advance_first_item">
+                <div class="circle">A</div>
+                <p>标题10</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="hidden" class="div hide"></div>
+    <div id="modell" class="div hide">
+        <h4>高级版-标题1</h4>
+        <p>高级版正文高级版正文高级版正文高级版正文高级版正文</p>
+        <p onclick="cancel()" class="cancel_btn">x</p>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
